@@ -1,5 +1,6 @@
 [global]
 
+
 # If false, makes your Streamlit script run as a module.
 developmentMode = false
 
@@ -11,6 +12,8 @@ dataFrameSerialization = "legacy"
 # Level of logging: 'error', 'warning', 'info', 'debug'.
 level = "info"
 
+[server]
+headless = true
 [client]
 
 # Whether to enable st.cache.
